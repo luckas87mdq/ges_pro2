@@ -1,0 +1,28 @@
+# archivo: .gitignore
+
+# Archivos y carpetas de dependencias
+/vendor/
+composer.lock
+
+# Archivos de configuración sensibles
+.env
+*.env
+
+# Archivos temporales y logs
+*.log
+*.cache
+*.tmp
+*.swp
+*.bak
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de IDE/editores
+.vscode/
+.idea/
+
+# Archivos de sistema operativo
+ehthumbs.db
+Icon?
